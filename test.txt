@@ -1,0 +1,7 @@
+#！/bin/bash
+echo start
+rm -rf autoweb
+git clone https://github.com/rya2020/autoweb.git
+chmod +x autoweb
+cd autoweb
+python testp.py
